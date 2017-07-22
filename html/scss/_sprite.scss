@@ -1,0 +1,418 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$arrow-green-name: 'arrow-green';
+$arrow-green-x: 0px;
+$arrow-green-y: 0px;
+$arrow-green-offset-x: 0px;
+$arrow-green-offset-y: 0px;
+$arrow-green-width: 8px;
+$arrow-green-height: 14px;
+$arrow-green-total-width: 67px;
+$arrow-green-total-height: 586px;
+$arrow-green-image: '../img/l-sprite.png';
+$arrow-green: (0px, 0px, 0px, 0px, 8px, 14px, 67px, 586px, '../img/l-sprite.png', 'arrow-green', );
+$icon-az-1-name: 'icon-az-1';
+$icon-az-1-x: 0px;
+$icon-az-1-y: 34px;
+$icon-az-1-offset-x: 0px;
+$icon-az-1-offset-y: -34px;
+$icon-az-1-width: 42px;
+$icon-az-1-height: 29px;
+$icon-az-1-total-width: 67px;
+$icon-az-1-total-height: 586px;
+$icon-az-1-image: '../img/l-sprite.png';
+$icon-az-1: (0px, 34px, 0px, -34px, 42px, 29px, 67px, 586px, '../img/l-sprite.png', 'icon-az-1', );
+$icon-az-2-name: 'icon-az-2';
+$icon-az-2-x: 0px;
+$icon-az-2-y: 83px;
+$icon-az-2-offset-x: 0px;
+$icon-az-2-offset-y: -83px;
+$icon-az-2-width: 37px;
+$icon-az-2-height: 24px;
+$icon-az-2-total-width: 67px;
+$icon-az-2-total-height: 586px;
+$icon-az-2-image: '../img/l-sprite.png';
+$icon-az-2: (0px, 83px, 0px, -83px, 37px, 24px, 67px, 586px, '../img/l-sprite.png', 'icon-az-2', );
+$icon-az-3-name: 'icon-az-3';
+$icon-az-3-x: 0px;
+$icon-az-3-y: 127px;
+$icon-az-3-offset-x: 0px;
+$icon-az-3-offset-y: -127px;
+$icon-az-3-width: 41px;
+$icon-az-3-height: 29px;
+$icon-az-3-total-width: 67px;
+$icon-az-3-total-height: 586px;
+$icon-az-3-image: '../img/l-sprite.png';
+$icon-az-3: (0px, 127px, 0px, -127px, 41px, 29px, 67px, 586px, '../img/l-sprite.png', 'icon-az-3', );
+$icon-az-4-name: 'icon-az-4';
+$icon-az-4-x: 0px;
+$icon-az-4-y: 176px;
+$icon-az-4-offset-x: 0px;
+$icon-az-4-offset-y: -176px;
+$icon-az-4-width: 33px;
+$icon-az-4-height: 32px;
+$icon-az-4-total-width: 67px;
+$icon-az-4-total-height: 586px;
+$icon-az-4-image: '../img/l-sprite.png';
+$icon-az-4: (0px, 176px, 0px, -176px, 33px, 32px, 67px, 586px, '../img/l-sprite.png', 'icon-az-4', );
+$icon-az-5-name: 'icon-az-5';
+$icon-az-5-x: 0px;
+$icon-az-5-y: 228px;
+$icon-az-5-offset-x: 0px;
+$icon-az-5-offset-y: -228px;
+$icon-az-5-width: 45px;
+$icon-az-5-height: 33px;
+$icon-az-5-total-width: 67px;
+$icon-az-5-total-height: 586px;
+$icon-az-5-image: '../img/l-sprite.png';
+$icon-az-5: (0px, 228px, 0px, -228px, 45px, 33px, 67px, 586px, '../img/l-sprite.png', 'icon-az-5', );
+$icon-back-to-top-name: 'icon-back-to-top';
+$icon-back-to-top-x: 0px;
+$icon-back-to-top-y: 281px;
+$icon-back-to-top-offset-x: 0px;
+$icon-back-to-top-offset-y: -281px;
+$icon-back-to-top-width: 67px;
+$icon-back-to-top-height: 45px;
+$icon-back-to-top-total-width: 67px;
+$icon-back-to-top-total-height: 586px;
+$icon-back-to-top-image: '../img/l-sprite.png';
+$icon-back-to-top: (0px, 281px, 0px, -281px, 67px, 45px, 67px, 586px, '../img/l-sprite.png', 'icon-back-to-top', );
+$icon-facebook-name: 'icon-facebook';
+$icon-facebook-x: 0px;
+$icon-facebook-y: 346px;
+$icon-facebook-offset-x: 0px;
+$icon-facebook-offset-y: -346px;
+$icon-facebook-width: 67px;
+$icon-facebook-height: 40px;
+$icon-facebook-total-width: 67px;
+$icon-facebook-total-height: 586px;
+$icon-facebook-image: '../img/l-sprite.png';
+$icon-facebook: (0px, 346px, 0px, -346px, 67px, 40px, 67px, 586px, '../img/l-sprite.png', 'icon-facebook', );
+$icon-mountain-name: 'icon-mountain';
+$icon-mountain-x: 0px;
+$icon-mountain-y: 406px;
+$icon-mountain-offset-x: 0px;
+$icon-mountain-offset-y: -406px;
+$icon-mountain-width: 59px;
+$icon-mountain-height: 34px;
+$icon-mountain-total-width: 67px;
+$icon-mountain-total-height: 586px;
+$icon-mountain-image: '../img/l-sprite.png';
+$icon-mountain: (0px, 406px, 0px, -406px, 59px, 34px, 67px, 586px, '../img/l-sprite.png', 'icon-mountain', );
+$icon-plus-name: 'icon-plus';
+$icon-plus-x: 0px;
+$icon-plus-y: 460px;
+$icon-plus-offset-x: 0px;
+$icon-plus-offset-y: -460px;
+$icon-plus-width: 29px;
+$icon-plus-height: 27px;
+$icon-plus-total-width: 67px;
+$icon-plus-total-height: 586px;
+$icon-plus-image: '../img/l-sprite.png';
+$icon-plus: (0px, 460px, 0px, -460px, 29px, 27px, 67px, 586px, '../img/l-sprite.png', 'icon-plus', );
+$icon-search-name: 'icon-search';
+$icon-search-x: 0px;
+$icon-search-y: 507px;
+$icon-search-offset-x: 0px;
+$icon-search-offset-y: -507px;
+$icon-search-width: 21px;
+$icon-search-height: 21px;
+$icon-search-total-width: 67px;
+$icon-search-total-height: 586px;
+$icon-search-image: '../img/l-sprite.png';
+$icon-search: (0px, 507px, 0px, -507px, 21px, 21px, 67px, 586px, '../img/l-sprite.png', 'icon-search', );
+$icon-sun-name: 'icon-sun';
+$icon-sun-x: 0px;
+$icon-sun-y: 548px;
+$icon-sun-offset-x: 0px;
+$icon-sun-offset-y: -548px;
+$icon-sun-width: 38px;
+$icon-sun-height: 38px;
+$icon-sun-total-width: 67px;
+$icon-sun-total-height: 586px;
+$icon-sun-image: '../img/l-sprite.png';
+$icon-sun: (0px, 548px, 0px, -548px, 38px, 38px, 67px, 586px, '../img/l-sprite.png', 'icon-sun', );
+$arrow-green-2x-name: 'arrow-green@2x';
+$arrow-green-2x-x: 0px;
+$arrow-green-2x-y: 0px;
+$arrow-green-2x-offset-x: 0px;
+$arrow-green-2x-offset-y: 0px;
+$arrow-green-2x-width: 16px;
+$arrow-green-2x-height: 28px;
+$arrow-green-2x-total-width: 134px;
+$arrow-green-2x-total-height: 1172px;
+$arrow-green-2x-image: '../img/h-sprite.png';
+$arrow-green-2x: (0px, 0px, 0px, 0px, 16px, 28px, 134px, 1172px, '../img/h-sprite.png', 'arrow-green@2x', );
+$icon-az-1-2x-name: 'icon-az-1@2x';
+$icon-az-1-2x-x: 0px;
+$icon-az-1-2x-y: 68px;
+$icon-az-1-2x-offset-x: 0px;
+$icon-az-1-2x-offset-y: -68px;
+$icon-az-1-2x-width: 84px;
+$icon-az-1-2x-height: 58px;
+$icon-az-1-2x-total-width: 134px;
+$icon-az-1-2x-total-height: 1172px;
+$icon-az-1-2x-image: '../img/h-sprite.png';
+$icon-az-1-2x: (0px, 68px, 0px, -68px, 84px, 58px, 134px, 1172px, '../img/h-sprite.png', 'icon-az-1@2x', );
+$icon-az-2-2x-name: 'icon-az-2@2x';
+$icon-az-2-2x-x: 0px;
+$icon-az-2-2x-y: 166px;
+$icon-az-2-2x-offset-x: 0px;
+$icon-az-2-2x-offset-y: -166px;
+$icon-az-2-2x-width: 74px;
+$icon-az-2-2x-height: 48px;
+$icon-az-2-2x-total-width: 134px;
+$icon-az-2-2x-total-height: 1172px;
+$icon-az-2-2x-image: '../img/h-sprite.png';
+$icon-az-2-2x: (0px, 166px, 0px, -166px, 74px, 48px, 134px, 1172px, '../img/h-sprite.png', 'icon-az-2@2x', );
+$icon-az-3-2x-name: 'icon-az-3@2x';
+$icon-az-3-2x-x: 0px;
+$icon-az-3-2x-y: 254px;
+$icon-az-3-2x-offset-x: 0px;
+$icon-az-3-2x-offset-y: -254px;
+$icon-az-3-2x-width: 82px;
+$icon-az-3-2x-height: 58px;
+$icon-az-3-2x-total-width: 134px;
+$icon-az-3-2x-total-height: 1172px;
+$icon-az-3-2x-image: '../img/h-sprite.png';
+$icon-az-3-2x: (0px, 254px, 0px, -254px, 82px, 58px, 134px, 1172px, '../img/h-sprite.png', 'icon-az-3@2x', );
+$icon-az-4-2x-name: 'icon-az-4@2x';
+$icon-az-4-2x-x: 0px;
+$icon-az-4-2x-y: 352px;
+$icon-az-4-2x-offset-x: 0px;
+$icon-az-4-2x-offset-y: -352px;
+$icon-az-4-2x-width: 66px;
+$icon-az-4-2x-height: 64px;
+$icon-az-4-2x-total-width: 134px;
+$icon-az-4-2x-total-height: 1172px;
+$icon-az-4-2x-image: '../img/h-sprite.png';
+$icon-az-4-2x: (0px, 352px, 0px, -352px, 66px, 64px, 134px, 1172px, '../img/h-sprite.png', 'icon-az-4@2x', );
+$icon-az-5-2x-name: 'icon-az-5@2x';
+$icon-az-5-2x-x: 0px;
+$icon-az-5-2x-y: 456px;
+$icon-az-5-2x-offset-x: 0px;
+$icon-az-5-2x-offset-y: -456px;
+$icon-az-5-2x-width: 90px;
+$icon-az-5-2x-height: 66px;
+$icon-az-5-2x-total-width: 134px;
+$icon-az-5-2x-total-height: 1172px;
+$icon-az-5-2x-image: '../img/h-sprite.png';
+$icon-az-5-2x: (0px, 456px, 0px, -456px, 90px, 66px, 134px, 1172px, '../img/h-sprite.png', 'icon-az-5@2x', );
+$icon-back-to-top-2x-name: 'icon-back-to-top@2x';
+$icon-back-to-top-2x-x: 0px;
+$icon-back-to-top-2x-y: 562px;
+$icon-back-to-top-2x-offset-x: 0px;
+$icon-back-to-top-2x-offset-y: -562px;
+$icon-back-to-top-2x-width: 134px;
+$icon-back-to-top-2x-height: 90px;
+$icon-back-to-top-2x-total-width: 134px;
+$icon-back-to-top-2x-total-height: 1172px;
+$icon-back-to-top-2x-image: '../img/h-sprite.png';
+$icon-back-to-top-2x: (0px, 562px, 0px, -562px, 134px, 90px, 134px, 1172px, '../img/h-sprite.png', 'icon-back-to-top@2x', );
+$icon-facebook-2x-name: 'icon-facebook@2x';
+$icon-facebook-2x-x: 0px;
+$icon-facebook-2x-y: 692px;
+$icon-facebook-2x-offset-x: 0px;
+$icon-facebook-2x-offset-y: -692px;
+$icon-facebook-2x-width: 134px;
+$icon-facebook-2x-height: 80px;
+$icon-facebook-2x-total-width: 134px;
+$icon-facebook-2x-total-height: 1172px;
+$icon-facebook-2x-image: '../img/h-sprite.png';
+$icon-facebook-2x: (0px, 692px, 0px, -692px, 134px, 80px, 134px, 1172px, '../img/h-sprite.png', 'icon-facebook@2x', );
+$icon-mountain-2x-name: 'icon-mountain@2x';
+$icon-mountain-2x-x: 0px;
+$icon-mountain-2x-y: 812px;
+$icon-mountain-2x-offset-x: 0px;
+$icon-mountain-2x-offset-y: -812px;
+$icon-mountain-2x-width: 118px;
+$icon-mountain-2x-height: 68px;
+$icon-mountain-2x-total-width: 134px;
+$icon-mountain-2x-total-height: 1172px;
+$icon-mountain-2x-image: '../img/h-sprite.png';
+$icon-mountain-2x: (0px, 812px, 0px, -812px, 118px, 68px, 134px, 1172px, '../img/h-sprite.png', 'icon-mountain@2x', );
+$icon-plus-2x-name: 'icon-plus@2x';
+$icon-plus-2x-x: 0px;
+$icon-plus-2x-y: 920px;
+$icon-plus-2x-offset-x: 0px;
+$icon-plus-2x-offset-y: -920px;
+$icon-plus-2x-width: 58px;
+$icon-plus-2x-height: 54px;
+$icon-plus-2x-total-width: 134px;
+$icon-plus-2x-total-height: 1172px;
+$icon-plus-2x-image: '../img/h-sprite.png';
+$icon-plus-2x: (0px, 920px, 0px, -920px, 58px, 54px, 134px, 1172px, '../img/h-sprite.png', 'icon-plus@2x', );
+$icon-search-2x-name: 'icon-search@2x';
+$icon-search-2x-x: 0px;
+$icon-search-2x-y: 1014px;
+$icon-search-2x-offset-x: 0px;
+$icon-search-2x-offset-y: -1014px;
+$icon-search-2x-width: 42px;
+$icon-search-2x-height: 42px;
+$icon-search-2x-total-width: 134px;
+$icon-search-2x-total-height: 1172px;
+$icon-search-2x-image: '../img/h-sprite.png';
+$icon-search-2x: (0px, 1014px, 0px, -1014px, 42px, 42px, 134px, 1172px, '../img/h-sprite.png', 'icon-search@2x', );
+$icon-sun-2x-name: 'icon-sun@2x';
+$icon-sun-2x-x: 0px;
+$icon-sun-2x-y: 1096px;
+$icon-sun-2x-offset-x: 0px;
+$icon-sun-2x-offset-y: -1096px;
+$icon-sun-2x-width: 76px;
+$icon-sun-2x-height: 76px;
+$icon-sun-2x-total-width: 134px;
+$icon-sun-2x-total-height: 1172px;
+$icon-sun-2x-image: '../img/h-sprite.png';
+$icon-sun-2x: (0px, 1096px, 0px, -1096px, 76px, 76px, 134px, 1172px, '../img/h-sprite.png', 'icon-sun@2x', );
+$spritesheet-width: 67px;
+$spritesheet-height: 586px;
+$spritesheet-image: '../img/l-sprite.png';
+$spritesheet-sprites: ($arrow-green, $icon-az-1, $icon-az-2, $icon-az-3, $icon-az-4, $icon-az-5, $icon-back-to-top, $icon-facebook, $icon-mountain, $icon-plus, $icon-search, $icon-sun, );
+$spritesheet: (67px, 586px, '../img/l-sprite.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 134px;
+$retina-spritesheet-height: 1172px;
+$retina-spritesheet-image: '../img/h-sprite.png';
+$retina-spritesheet-sprites: ($arrow-green-2x, $icon-az-1-2x, $icon-az-2-2x, $icon-az-3-2x, $icon-az-4-2x, $icon-az-5-2x, $icon-back-to-top-2x, $icon-facebook-2x, $icon-mountain-2x, $icon-plus-2x, $icon-search-2x, $icon-sun-2x, );
+$retina-spritesheet: (134px, 1172px, '../img/h-sprite.png', $retina-spritesheet-sprites, );
+
+// These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+//
+// The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+$arrow-green-group-name: 'arrow-green';
+$arrow-green-group: ('arrow-green', $arrow-green, $arrow-green-2x, );
+$icon-az-1-group-name: 'icon-az-1';
+$icon-az-1-group: ('icon-az-1', $icon-az-1, $icon-az-1-2x, );
+$icon-az-2-group-name: 'icon-az-2';
+$icon-az-2-group: ('icon-az-2', $icon-az-2, $icon-az-2-2x, );
+$icon-az-3-group-name: 'icon-az-3';
+$icon-az-3-group: ('icon-az-3', $icon-az-3, $icon-az-3-2x, );
+$icon-az-4-group-name: 'icon-az-4';
+$icon-az-4-group: ('icon-az-4', $icon-az-4, $icon-az-4-2x, );
+$icon-az-5-group-name: 'icon-az-5';
+$icon-az-5-group: ('icon-az-5', $icon-az-5, $icon-az-5-2x, );
+$icon-back-to-top-group-name: 'icon-back-to-top';
+$icon-back-to-top-group: ('icon-back-to-top', $icon-back-to-top, $icon-back-to-top-2x, );
+$icon-facebook-group-name: 'icon-facebook';
+$icon-facebook-group: ('icon-facebook', $icon-facebook, $icon-facebook-2x, );
+$icon-mountain-group-name: 'icon-mountain';
+$icon-mountain-group: ('icon-mountain', $icon-mountain, $icon-mountain-2x, );
+$icon-plus-group-name: 'icon-plus';
+$icon-plus-group: ('icon-plus', $icon-plus, $icon-plus-2x, );
+$icon-search-group-name: 'icon-search';
+$icon-search-group: ('icon-search', $icon-search, $icon-search-2x, );
+$icon-sun-group-name: 'icon-sun';
+$icon-sun-group: ('icon-sun', $icon-sun, $icon-sun-2x, );
+$retina-groups: ($arrow-green-group, $icon-az-1-group, $icon-az-2-group, $icon-az-3-group, $icon-az-4-group, $icon-az-5-group, $icon-back-to-top-group, $icon-facebook-group, $icon-mountain-group, $icon-plus-group, $icon-search-group, $icon-sun-group, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+//   It should be used with a "retina group" variable.
+//
+// The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+//
+// $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+//
+// .icon-home {
+//   @include retina-sprite($icon-home-group);
+// }
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+// The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+//   This yields the same output as CSS retina template but can be overridden in SCSS
+//
+// @include retina-sprites($retina-groups);
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}
